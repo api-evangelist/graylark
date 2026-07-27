@@ -1,7 +1,18 @@
 aid: graylark
 name: Graylark
-description: Graylark is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Graylark is an AI-powered geolocation intelligence company serving law
+  enforcement, government, and enterprise customers. Its technology extracts
+  location data from ordinary images at varying levels of precision, marketed
+  under the GeoSpy brand (geospy.ai). The platform offers Global Search (1-50 km
+  accuracy with worldwide coverage), Street Search (meter-level precision across
+  1,000+ cities), and Property Search (100+ million records for matching a scene
+  to a specific structure). Graylark positions these capabilities for
+  investigations, fraud detection, insurance validation, and journalistic
+  verification of visual content. Access is gated to qualified government and
+  enterprise organizations via a contact-sales/licensing model; the company
+  publishes no public self-service API, developer documentation, SDKs, or
+  OpenAPI at this time. Backed by General Catalyst.
 url: https://raw.githubusercontent.com/api-evangelist/graylark/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,59 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/cnX8JUOQ3jFBFQBitJWMDJJ30.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Geolocation
+- Geospatial Intelligence
+- Artificial Intelligence
+- Image Recognition
+- OSINT
+- Law Enforcement
+- Government
 apis: []
+common:
+- type: DomainSecurity
+  url: security/graylark-domain-security.yml
+- type: Website
+  url: https://graylark.io
+- type: Blog
+  url: https://geospy.ai/blog
+- type: Login
+  url: https://app.geospy.ai
+- type: Support
+  url: https://geospy.ai/#contact
+- type: TermsOfService
+  url: https://geospy.ai/inner-pages/tos
+- type: PrivacyPolicy
+  url: https://geospy.ai/inner-pages/privacy
+- type: AcceptableUsePolicy
+  url: https://geospy.ai/inner-pages/aup
+- type: LinkedIn
+  url: https://www.linkedin.com/company/89175350/
+- type: Twitter
+  url: https://x.com/graylark
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
